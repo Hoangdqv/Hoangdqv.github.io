@@ -1,5 +1,4 @@
 body {
-    box-sizing: border-box;
     font-family: sans-serif;
 }
 header {
@@ -55,8 +54,8 @@ nav a {
     text-align: center;
     margin: 8px 0px;
 }
-.main-title h1 {
-    margin: 8px 0px;
+.main-title h1, p {
+    margin: 8px 8px;
 }
 .main-title p {
     color: grey;
@@ -101,7 +100,8 @@ nav a {
     padding: 16px;
 }
 .review {
-    flex: 1 1 30%;
+    flex: 0 1 28%;
+    justify-content: space-evenly;
     border-radius: 25px;
     margin: 8px;
     padding: 16px;
